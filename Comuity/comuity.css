@@ -1,0 +1,74 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    color: #000; /* Set default text color to black */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #f5f5dc; /* Change background color to cream white */
+    color: #ffa07a; /* Set header text color to peach */
+    padding: 15px 0;
+    display: flex; /* Add flexbox to align items */
+    justify-content: space-between; /* Align items at the ends */
+    align-items: center; /* Center items vertically */
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin-left: 20px; /* Add margin to the left of the logo */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px; /* Add margin to the left of each navigation item */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first navigation item */
+}
+
+nav ul li a {
+    color: #000; /* Set link text color to black */
+    text-decoration: none;
+}
+
+.search-location img {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px; /* Add margin to the right of the search icon */
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f5f5dc; /* Change background color to cream white */
+    color: #ffa07a; /* Set footer text color to peach */
+    padding: 20px 0;
+    text-align: center;
+}
